@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1078894B8C07900A5AD26A91 /* libPods-kangyuanhuihangTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CB51288F140C74419BA6B14 /* libPods-kangyuanhuihangTests.a */; };
 		415608E91D8E6F52006899AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 415608E81D8E6F52006899AF /* main.m */; };
 		415608EC1D8E6F52006899AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 415608EB1D8E6F52006899AF /* AppDelegate.m */; };
 		415608EF1D8E6F52006899AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 415608EE1D8E6F52006899AF /* ViewController.m */; };
@@ -15,6 +16,8 @@
 		415608F71D8E6F52006899AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 415608F51D8E6F52006899AF /* LaunchScreen.storyboard */; };
 		415609021D8E6F52006899AF /* kangyuanhuihangTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 415609011D8E6F52006899AF /* kangyuanhuihangTests.m */; };
 		4156090D1D8E6F52006899AF /* kangyuanhuihangUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4156090C1D8E6F52006899AF /* kangyuanhuihangUITests.m */; };
+		E4515C4B942D00D6EF5AE99F /* libPods-kangyuanhuihang.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBF26F34246EA5F0E41D5E45 /* libPods-kangyuanhuihang.a */; };
+		EC430B4062B747D11A1C4F5F /* libPods-kangyuanhuihangUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56E50A52C9F29B06952B2804 /* libPods-kangyuanhuihangUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		19FD685F07DC18D68A623528 /* Pods-kangyuanhuihangUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kangyuanhuihangUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kangyuanhuihangUITests/Pods-kangyuanhuihangUITests.release.xcconfig"; sourceTree = "<group>"; };
 		415608E41D8E6F52006899AF /* kangyuanhuihang.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kangyuanhuihang.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		415608E81D8E6F52006899AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		415608EA1D8E6F52006899AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +55,14 @@
 		415609081D8E6F52006899AF /* kangyuanhuihangUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kangyuanhuihangUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4156090C1D8E6F52006899AF /* kangyuanhuihangUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kangyuanhuihangUITests.m; sourceTree = "<group>"; };
 		4156090E1D8E6F52006899AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		56E50A52C9F29B06952B2804 /* libPods-kangyuanhuihangUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kangyuanhuihangUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6515971F3E7AFE0A2DBB8C86 /* Pods-kangyuanhuihang.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kangyuanhuihang.release.xcconfig"; path = "Pods/Target Support Files/Pods-kangyuanhuihang/Pods-kangyuanhuihang.release.xcconfig"; sourceTree = "<group>"; };
+		8CB51288F140C74419BA6B14 /* libPods-kangyuanhuihangTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kangyuanhuihangTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0E1883D34D936780632BBB /* Pods-kangyuanhuihangTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kangyuanhuihangTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-kangyuanhuihangTests/Pods-kangyuanhuihangTests.release.xcconfig"; sourceTree = "<group>"; };
+		99A2EFA8C18BAD31FEF49458 /* Pods-kangyuanhuihangUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kangyuanhuihangUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kangyuanhuihangUITests/Pods-kangyuanhuihangUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B4E7FFEB57C265D697797935 /* Pods-kangyuanhuihangTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kangyuanhuihangTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kangyuanhuihangTests/Pods-kangyuanhuihangTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B8ED6E845219237579C1F7FB /* Pods-kangyuanhuihang.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-kangyuanhuihang.debug.xcconfig"; path = "Pods/Target Support Files/Pods-kangyuanhuihang/Pods-kangyuanhuihang.debug.xcconfig"; sourceTree = "<group>"; };
+		BBF26F34246EA5F0E41D5E45 /* libPods-kangyuanhuihang.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-kangyuanhuihang.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4515C4B942D00D6EF5AE99F /* libPods-kangyuanhuihang.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1078894B8C07900A5AD26A91 /* libPods-kangyuanhuihangTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC430B4062B747D11A1C4F5F /* libPods-kangyuanhuihangUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				415609001D8E6F52006899AF /* kangyuanhuihangTests */,
 				4156090B1D8E6F52006899AF /* kangyuanhuihangUITests */,
 				415608E51D8E6F52006899AF /* Products */,
+				BE95B692A8B1ADF1629DF868 /* Pods */,
+				4AAB18CD3ADBBEC81BC4E2C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +157,29 @@
 			path = kangyuanhuihangUITests;
 			sourceTree = "<group>";
 		};
+		4AAB18CD3ADBBEC81BC4E2C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BBF26F34246EA5F0E41D5E45 /* libPods-kangyuanhuihang.a */,
+				8CB51288F140C74419BA6B14 /* libPods-kangyuanhuihangTests.a */,
+				56E50A52C9F29B06952B2804 /* libPods-kangyuanhuihangUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BE95B692A8B1ADF1629DF868 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B8ED6E845219237579C1F7FB /* Pods-kangyuanhuihang.debug.xcconfig */,
+				6515971F3E7AFE0A2DBB8C86 /* Pods-kangyuanhuihang.release.xcconfig */,
+				B4E7FFEB57C265D697797935 /* Pods-kangyuanhuihangTests.debug.xcconfig */,
+				8D0E1883D34D936780632BBB /* Pods-kangyuanhuihangTests.release.xcconfig */,
+				99A2EFA8C18BAD31FEF49458 /* Pods-kangyuanhuihangUITests.debug.xcconfig */,
+				19FD685F07DC18D68A623528 /* Pods-kangyuanhuihangUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 415609111D8E6F52006899AF /* Build configuration list for PBXNativeTarget "kangyuanhuihang" */;
 			buildPhases = (
+				0C13A1BC93627EB20140F549 /* [CP] Check Pods Manifest.lock */,
 				415608E01D8E6F52006899AF /* Sources */,
 				415608E11D8E6F52006899AF /* Frameworks */,
 				415608E21D8E6F52006899AF /* Resources */,
+				648F13394B0F3824ACAF7457 /* [CP] Embed Pods Frameworks */,
+				12721CEE3429E367BDBB600E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 415609141D8E6F52006899AF /* Build configuration list for PBXNativeTarget "kangyuanhuihangTests" */;
 			buildPhases = (
+				3A871432E200D421F479BB3F /* [CP] Check Pods Manifest.lock */,
 				415608F91D8E6F52006899AF /* Sources */,
 				415608FA1D8E6F52006899AF /* Frameworks */,
 				415608FB1D8E6F52006899AF /* Resources */,
+				70E3C398E30CF3DDB0F0D4ED /* [CP] Embed Pods Frameworks */,
+				9E173C54888DE78418EBEA30 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +228,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 415609171D8E6F52006899AF /* Build configuration list for PBXNativeTarget "kangyuanhuihangUITests" */;
 			buildPhases = (
+				127E26D44A7E2F6F2A0511CC /* [CP] Check Pods Manifest.lock */,
 				415609041D8E6F52006899AF /* Sources */,
 				415609051D8E6F52006899AF /* Frameworks */,
 				415609061D8E6F52006899AF /* Resources */,
+				0332E39051BCED7A07C34551 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -264,6 +312,129 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0332E39051BCED7A07C34551 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kangyuanhuihangUITests/Pods-kangyuanhuihangUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0C13A1BC93627EB20140F549 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		12721CEE3429E367BDBB600E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kangyuanhuihang/Pods-kangyuanhuihang-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		127E26D44A7E2F6F2A0511CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3A871432E200D421F479BB3F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		648F13394B0F3824ACAF7457 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kangyuanhuihang/Pods-kangyuanhuihang-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70E3C398E30CF3DDB0F0D4ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kangyuanhuihangTests/Pods-kangyuanhuihangTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E173C54888DE78418EBEA30 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-kangyuanhuihangTests/Pods-kangyuanhuihangTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		415608E01D8E6F52006899AF /* Sources */ = {
@@ -413,6 +584,7 @@
 		};
 		415609121D8E6F52006899AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B8ED6E845219237579C1F7FB /* Pods-kangyuanhuihang.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kangyuanhuihang/Info.plist;
@@ -424,6 +596,7 @@
 		};
 		415609131D8E6F52006899AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6515971F3E7AFE0A2DBB8C86 /* Pods-kangyuanhuihang.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = kangyuanhuihang/Info.plist;
@@ -435,6 +608,7 @@
 		};
 		415609151D8E6F52006899AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4E7FFEB57C265D697797935 /* Pods-kangyuanhuihangTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kangyuanhuihangTests/Info.plist;
@@ -447,6 +621,7 @@
 		};
 		415609161D8E6F52006899AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0E1883D34D936780632BBB /* Pods-kangyuanhuihangTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = kangyuanhuihangTests/Info.plist;
@@ -459,6 +634,7 @@
 		};
 		415609181D8E6F52006899AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99A2EFA8C18BAD31FEF49458 /* Pods-kangyuanhuihangUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = kangyuanhuihangUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -470,6 +646,7 @@
 		};
 		415609191D8E6F52006899AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19FD685F07DC18D68A623528 /* Pods-kangyuanhuihangUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = kangyuanhuihangUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -498,6 +675,7 @@
 				415609131D8E6F52006899AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		415609141D8E6F52006899AF /* Build configuration list for PBXNativeTarget "kangyuanhuihangTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +684,7 @@
 				415609161D8E6F52006899AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		415609171D8E6F52006899AF /* Build configuration list for PBXNativeTarget "kangyuanhuihangUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +693,7 @@
 				415609191D8E6F52006899AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
